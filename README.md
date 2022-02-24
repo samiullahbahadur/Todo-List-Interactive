@@ -4,7 +4,7 @@ In this project, we can create our daily todo lists
 
 ## Live Demo
 
-[Link to Live demo]()
+[Link to Live demo](https://samiullahbahadur.github.io/Todo-List-Interactive/)
 
 Additional description about the project and its features.
 
@@ -50,4 +50,4 @@ Give a ⭐️ if you like this project!
 
 ## Report an issue
 
--Go here 👉 [@Link]()
+-Go here 👉 [@Link](https://github.com/samiullahbahadur/Todo-List-Interactive/issues)
