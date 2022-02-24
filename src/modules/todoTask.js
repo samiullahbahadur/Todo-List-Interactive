@@ -1,6 +1,6 @@
 export default class TodoTask {
-  constructor(desp, arr, done = false) {
-    this.desp = desp;
+  constructor(description, arr, done = false) {
+    this.description = description;
     this.index = arr.length;
     this.done = done;
   }

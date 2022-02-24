@@ -29,7 +29,7 @@ export default class TaskList {
             <input type="checkbox" class="checkbox" ${el.done ? 'checked' : ''}>
             <input type='text' class='todo ${
               el.done ? 'line-through' : ''
-            }' value='${el.desp}'>
+            }' value='${el.description}'>
             </div>
             <div>
             <i class="fa-solid fa-ellipsis-vertical icon-dots"></i>
@@ -59,9 +59,9 @@ export default class TaskList {
     });
   };
 
-  addTodo(desp, tasks) {
-    if (desp !== '') {
-      const todoItems = new TodoTask(desp, tasks);
+  addTodo(description, tasks) {
+    if (description !== '') {
+      const todoItems = new TodoTask(description, tasks);
       this.tasks.push(todoItems);
     }
 
